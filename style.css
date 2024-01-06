@@ -77,6 +77,11 @@ section .main{
     margin-top: 60px;
 
 }
+.google{
+    height: 92px;
+    width: 272px;
+
+}
 
 section .main .searchbox{
     position: relative;
@@ -211,3 +216,43 @@ footer{
 .row ul li a:hover{
     text-decoration: underline;
 }
+
+/*Mobile view*/
+@media(max-width:768px){
+
+ section .main .s1earchbox{
+    margin-top: 70px;
+ }
+
+section .main .searchbox .search{
+    width: 240px;
+    margin-left: 15px;
+    padding: 9px 50px 9px 40px;
+}
+section .main .searchbox .icon{
+    margin-top: 0px;
+    margin-left: 6px;
+}
+section .main .searchbox .icon2{
+    margin-top: -47px;
+    width: 321px;
+    margin-left: 275px;
+}
+section .main .searchbox .imagesearch{
+    margin-top: -47px;
+    width: 321px;
+    margin-left: 309px;
+}
+
+.google{
+    margin-top: 70px;
+    height: 50px;
+    width: 150px;
+
+}
+.row ul{
+    display: block;
+}
+
+}
+
